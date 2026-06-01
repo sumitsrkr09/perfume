@@ -1,0 +1,8 @@
+.floating-bottle {
+    position: fixed;
+    pointer-events: none;
+    object-fit: contain;
+    filter: drop-shadow(0 24px 48px rgba(140, 100, 30, 0.32));
+    transform-origin: bottom center;
+    will-change: top, left, width;
+  }
